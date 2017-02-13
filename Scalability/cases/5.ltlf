@@ -1,0 +1,1 @@
+(G(!a |  !b) &  G(!a |  !c) &  G(!a |  !d) &  G(!b |  !c) &  G(!b |  !d) &  G(!c |  !d)) -> (G(a -> (X(e) |  X(X(e)) |  X(X(X(e))))) &  G(b -> (X(f) |  X(X(f)) |  X(X(X(f))))) &  G(c -> (X(g) |  X(X(g)) |  X(X(X(g))))) &  G(d -> (X(h) |  X(X(h)) |  X(X(X(h))))) &  G(!e |  !f) &  G(!e |  !g) &  G(!e |  !h) &  G(!f |  !g) &  G(!f |  !h) &  G(!g |  !h))

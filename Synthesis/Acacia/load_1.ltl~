@@ -1,0 +1,7 @@
+
+(G (FALSE  + (!(X(Grant0=1))) + (Request0=1)));
+(G (FALSE  + (!(X(Grant1=1))) + (Request1=1)));
+(G (FALSE  + (!(X(Grant2=1))) + (Request2=1)));
+(G (TRUE  * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant1=1))))));
+
+

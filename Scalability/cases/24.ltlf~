@@ -1,0 +1,1 @@
+(!etc &  G(!etc &  !sts -> X(!etc))& G(etc -> F(!etc))& G(sts -> X etc)) -> (G(shlr &  X shlg -> sts) &  G(sflr &  X sflg -> sts) &  G(sflg &  (!etc |  !ec) -> X sflr) &  G(shlg &  (!etc &  ec)  -> X shlr) &  G((sflr |  shlr)) &  G(ec -> F sflg ) &  G F shlg)

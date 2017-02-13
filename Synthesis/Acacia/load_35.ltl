@@ -1,0 +1,15 @@
+
+(G (FALSE  + (!(X(Grant0=1))) + (Request0=1)));
+(G (FALSE  + (!(X(Grant1=1))) + (Request1=1)));
+(G (FALSE  + (!(X(Grant2=1))) + (Request2=1)));
+(G (FALSE  + (!(X(Grant3=1))) + (Request3=1)));
+(G (FALSE  + (!(X(Grant4=1))) + (Request4=1)));
+(G (TRUE  * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant3=1)))) * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant4=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant3=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant4=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant3=1)))) * (FALSE  + (!(X(Grant2=1))) + (!(X(Grant4=1)))) * (FALSE  + (!(X(Grant3=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant3=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant3=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant3=1))) + (!(X(Grant4=1)))) * (FALSE  + (!(X(Grant4=1))) + (!(X(Grant0=1)))) * (FALSE  + (!(X(Grant4=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant4=1))) + (!(X(Grant2=1)))) * (FALSE  + (!(X(Grant4=1))) + (!(X(Grant3=1))))));
+(FALSE  + (!(G (F (Request0=1)))) + (G (F (X(Grant0=1)))));
+(FALSE  + (!(G (F (Request1=1)))) + (G (F (X(Grant1=1)))));
+(FALSE  + (!(G (F (Request2=1)))) + (G (F (X(Grant2=1)))));
+(FALSE  + (!(G (F (Request3=1)))) + (G (F (X(Grant3=1)))));
+(FALSE  + (!(G (F (Request4=1)))) + (G (F (X(Grant4=1)))));
+(G (FALSE  + (TRUE  * (!(X(Grant0=1))) * (!(X(Grant1=1))) * (!(X(Grant2=1))) * (!(X(Grant3=1))) * (!(X(Grant4=1)))) + (idle=1)));
+
+

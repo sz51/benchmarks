@@ -1,0 +1,1 @@
+G(F(a)) -> (G(d -> (d U a)) &  G(c -> (c U a)) &  G(!d |  !c) &  G(b -> F(c)) &  G(F(d)))

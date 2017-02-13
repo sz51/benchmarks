@@ -1,0 +1,5 @@
+
+(G (FALSE  + (!(X(Grant0=1))) + (Request0=1)));
+(G (FALSE  + (!(X(Grant1=1))) + (Request1=1)));
+
+

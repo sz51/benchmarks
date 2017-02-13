@@ -1,0 +1,7 @@
+import os
+benchmark = open("ltlf.txt")
+i = 4
+while i <= 27:
+	f = open(str(i)+'.part', 'w')
+	f.close()
+	i = i + 1

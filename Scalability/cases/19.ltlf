@@ -1,0 +1,1 @@
+(!b &  G(!b &  !c -> X(!b))& G(b -> F(!b))& G(c -> X b)) -> (G(e &  X g -> c) &  G(d &  X f -> c) &  G(f &  (!b |  !a) -> X d) &  G(g &  (!b &  a)  -> X e) &  G((d |  e)) &  G(a -> F f ) &  G F g)

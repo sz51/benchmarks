@@ -1,0 +1,12 @@
+
+assume (G (FALSE  + (!(TRUE  * (idle=1) * (!(X(Grant0=1))) * (!(X(Grant1=1))))) + (X (idle=1))));
+assume (G (F (idle=1)));
+(G (FALSE  + (!(X(Grant0=1))) + (Request0=1)));
+(G (FALSE  + (!(X(Grant1=1))) + (Request1=1)));
+(G (TRUE  * (FALSE  + (!(X(Grant0=1))) + (!(X(Grant1=1)))) * (FALSE  + (!(X(Grant1=1))) + (!(X(Grant0=1))))));
+(!(F (G (TRUE  * (Request0=1) * (!(X(Grant0=1)))))));
+(!(F (G (TRUE  * (Request1=1) * (!(X(Grant1=1)))))));
+(G (FALSE  + (TRUE  * (!(X(Grant0=1))) * (!(X(Grant1=1)))) + (idle=1)));
+(G (FALSE  + (!(Request0=1)) + (!(X(Grant1=1)))));
+
+
